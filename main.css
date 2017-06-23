@@ -1,65 +1,31 @@
-*{
-    background-color: #b9ff4e;
+#header{
+  background-image: url("4.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: background 3s ease-out;
+  -moz-transition: background 3s ease-out;
+  -o-transition: background 3s ease-out;
+  transition: background 3s ease-out;
+}
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+
+#wel{
+font-family: 'Francois One', sans-serif;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  padding-top: 20%;
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  text-shadow:2px 2px black;
 }
 
-
-#pgHeader{
-    background: black  url(Images/4.jpg)  no-repeat  ;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: background 3s ease-out;
-    -moz-transition: background 3s ease-out;
-    -o-transition: background 3s ease-out;
-    transition: background 3s ease-out;
-}
-
-
-
-#_1Paragraph{
-    @import url('https://fonts.googleapis.com/css?family=Francois+One');
-    font-family: 'Francois One', sans-serif;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    position: relative;
-    padding-top: 20%;
-    text-align: center;
-    font-size: 150%;
-    color: white;
-    text-shadow:2px 2px black;
-}
-
-#pgColumns{
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    margin-left: 30px;
-    list-style: none;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    flex-flow:  row wrap;
-}
-
-.pgColumn{
-    width: 20%;
-    height: 150px;
-    background-color: tomato;
-    padding: 5px;
-    margin-top: 10px;
-    margin-right: 5%;
-    line-height: 150px;
-    color: aliceblue;
-
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Francois One', sans-serif;
-}
-
-
-/*
 #sec{
   width: 100%;
   height: 25%;
@@ -68,8 +34,10 @@
 
 #footer{
   width: 100%;
-  height: 100%;
+  height: 80%;
   background-color: #F4F3F3;
+  margin-top: 10%;
+  padding-bottom: 15%;
 }
 
 #footer h1{
@@ -78,7 +46,7 @@
     height: 50%;
     margin: auto;
     position: relative;
-    padding-top: 4%;
+    padding-top: 2%;
     text-align: center;
     font-size: 200%;
     color: black;
@@ -111,13 +79,40 @@
 }
 
 #f1{
-  width: 25%;
-  height: 40%;
+  width: 20%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  margin-top: auto;
+  float:left;
+  margin-left: 10%;
+  background-image: url('info.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  padding-top: 10%;
 }
 
-#i1{
-  width: 70%;
-  height: 70%;
-  padding-left: 30%;
+#f2{
+  width: 20%;
+  height: 25%;
+  float:left;
+  margin-left: 10%;
+  background-image: url('sha.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  padding-top: 10%;
+}
 
+#f3{
+  width: 20%;
+  height: 25%;
+  float:left;
+  margin-left: 10%;
+  background-image: url('act.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  padding-top: 10%;
 }
