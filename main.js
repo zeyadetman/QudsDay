@@ -1,6 +1,6 @@
 var i =-1;
 var bgi = ["Images/1.jpg", "Images/2.jpg","Images/3.jpg","Images/4.jpg"];
-var time = 6000
+var time = 8000
 
 
 window.setInterval(chgBG, time);
