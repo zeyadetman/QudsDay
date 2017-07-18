@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
 #header {
     background-image: url("assets/images/4.jpg");
     background-color: black;
@@ -11,17 +13,25 @@
     transition: background 3s ease-out;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
 #wel {
     font-family: 'Francois One', sans-serif;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 100%;
     margin: auto;
     position: relative;
     padding-top: 20%;
     font-size: 150%;
     color: white;
     text-shadow: 2px 2px black;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    padding-top: 10%;
+    margin: auto;
+    width: 80%;
+    float: left;
 }
 
 #sec {
